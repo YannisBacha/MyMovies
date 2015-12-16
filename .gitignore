@@ -1,0 +1,9 @@
+vendor/
+.idea/MyMovie.iml
+.idea/encodings.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/modules.xml
+.idea/sqldialects.xml
+.idea/workspace.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/vcs.xml

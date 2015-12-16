@@ -1,0 +1,23 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}{{ movie.movtitle }}{% endblock %}
+
+{% block content %}<p></p>
+    <div id="content"><div class="jumbotron">
+    <div class="row">
+        <div class="col-md-5 col-sm-7">
+            <img class="img-responsive movieImage" src="/images/{{ movie.movimage }}" title="Le Loup de Wall Street" />
+        </div>
+    <div class="col-md-7 col-sm-5">
+        <h2>{{ movie.movtitle }}</h2>
+        <h4>{{ movie.movdirector }}, {{ movie.movyear }}</h4>
+        <p>Biopic </br>
+            </br><small>
+            {{ movie.movdescriptionlong }}</small></p>
+        <button class="glyphicon glyphicon-edit">Editer</button>
+    </div>
+
+
+
+</div>
+{% endblock %}

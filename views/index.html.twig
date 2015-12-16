@@ -1,0 +1,12 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}Acceuil{% endblock %}
+
+{% block content %}
+    {% for movie in movies %}
+        <article>
+            <h3><a class="movieTitle" href="{{ path('movie', { 'id': movie.movid }) }}">{{ movie.movtitle }}</a></h3>
+            <p>{{ movie.movdescriptionshort }}</p>
+        </article>
+    {% endfor %}
+{% endblock %}
